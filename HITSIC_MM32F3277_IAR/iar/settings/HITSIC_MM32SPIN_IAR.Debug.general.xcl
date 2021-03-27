@@ -1,0 +1,15 @@
+"F:\IAR\arm\bin\armproc.dll" 
+
+"F:\IAR\arm\bin\armjlink2.dll" 
+
+"E:\Fork\SmartCar\HITSIC_MM32F3277\HITSIC_MM32F3277_IAR\iar\Debug\Exe\HITSIC_MM32SPIN_IAR.out" 
+
+--plugin="F:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="F:\IAR\arm\config\debugger\MindMotion\MM32F3270.dmac" 
+
+--flash_loader="F:\IAR\arm\config\flashloader\MindMotion\FlashMM32F327xGx.board" 
+
+
+
+
