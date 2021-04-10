@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "F:\IAR\common\bin\cspybat" -f "E:\Fork\SmartCar\HITSIC_MM32F3277\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32SPIN_IAR.Debug.general.xcl" --backend -f "E:\Fork\SmartCar\HITSIC_MM32F3277\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32SPIN_IAR.Debug.driver.xcl" 
+& "F:\IAR\common\bin\cspybat" -f "E:\Fork\SmartCar\HITSIC_MM32F32\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32F3277_IAR.Debug.general.xcl" --backend -f "E:\Fork\SmartCar\HITSIC_MM32F32\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32F3277_IAR.Debug.driver.xcl" 
 }
 else
 {
-& "F:\IAR\common\bin\cspybat" -f "E:\Fork\SmartCar\HITSIC_MM32F3277\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32SPIN_IAR.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\Fork\SmartCar\HITSIC_MM32F3277\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32SPIN_IAR.Debug.driver.xcl" 
+& "F:\IAR\common\bin\cspybat" -f "E:\Fork\SmartCar\HITSIC_MM32F32\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32F3277_IAR.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\Fork\SmartCar\HITSIC_MM32F32\HITSIC_MM32F3277_IAR\iar\settings\HITSIC_MM32F3277_IAR.Debug.driver.xcl" 
 }

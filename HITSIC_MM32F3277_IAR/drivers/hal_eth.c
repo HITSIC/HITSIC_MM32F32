@@ -441,8 +441,7 @@ u32 ETH_CheckFrameReceived(void)
               !(DMARxDescToGet->CS & ETH_DMA_RDES_LS)  &&
               (DMARxDescToGet->CS & ETH_DMA_RDES_FS)) {
         DMA_RX_FRAME_infos->ptrFS_Rx_Desc = DMARxDescToGet;
-        //DMA_RX_FRAME_infos->ptrLS_Rx_Desc = (void*)0;
-        DMA_RX_FRAME_infos->ptrLS_Rx_Desc = 0;
+        DMA_RX_FRAME_infos->ptrLS_Rx_Desc = (void*)0;
         DMA_RX_FRAME_infos->cnt = 1;
     }
     else if ( !(DMARxDescToGet->CS & ETH_DMA_RDES_OWN) &&

@@ -45,7 +45,7 @@
 
 
 #endif
-extern u8 device_id_data[12];
+GLOBAL u8 device_id_data[12];
 
 #undef GLOBAL
 

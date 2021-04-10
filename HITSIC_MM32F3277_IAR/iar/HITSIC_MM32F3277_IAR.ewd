@@ -84,7 +84,7 @@
                 </option>
                 <option>
                     <name>OCDynDriverList</name>
-                    <state>JLINK_ID</state>
+                    <state>CMSISDAP_ID</state>
                 </option>
                 <option>
                     <name>OCLastSavedByProductVersion</name>
@@ -292,7 +292,7 @@
                 <option>
                     <name>CMSISDAPResetList</name>
                     <version>1</version>
-                    <state>9</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CMSISDAPHWResetDuration</name>
@@ -433,7 +433,7 @@
                 </option>
                 <option>
                     <name>CMSISDAPSelectedCPUBehaviour</name>
-                    <state>0</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>ICpuName</name>

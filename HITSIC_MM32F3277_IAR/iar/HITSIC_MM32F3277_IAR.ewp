@@ -224,6 +224,8 @@
                     <state>OVERTIME=0</state>
                     <state>CLOCK=8000000</state>
                     <state>DEBUG</state>
+                    <state>_DLIB_FILE_DESCRIPTOR</state>
+                    <state>USE_STDPERIPH_DEVICE</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -404,7 +406,7 @@
                 </option>
                 <option>
                     <name>IccLang</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IccCDialect</name>
@@ -657,7 +659,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>HITSIC_MM32F3277_IAR.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -712,7 +714,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>HITSIC_MM32SPIN_IAR.out</state>
+                    <state>HITSIC_MM32F3277_IAR.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -772,11 +774,11 @@
                 </option>
                 <option>
                     <name>IlinkIcfOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$\config\linker\MindMotion\MM32F3270.icf</state>
+                    <state>$PROJ_DIR$\MM32F3270.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1009,7 +1011,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>HITSIC_MM32SPIN_IAR_import_lib.o</state>
+                    <state>HITSIC_MM32F3277_IAR_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2193,103 +2195,103 @@
     <group>
         <name>device</name>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\mm32_device.h</name>
+            <name>$PROJ_DIR$\..\device\mm32_device.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\mm32_reg.h</name>
+            <name>$PROJ_DIR$\..\device\mm32_reg.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\mm32_reg_redefine_v1.h</name>
+            <name>$PROJ_DIR$\..\device\mm32_reg_redefine_v1.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_adc.h</name>
+            <name>$PROJ_DIR$\..\device\reg_adc.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_bkp.h</name>
+            <name>$PROJ_DIR$\..\device\reg_bkp.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_can.h</name>
+            <name>$PROJ_DIR$\..\device\reg_can.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_common.h</name>
+            <name>$PROJ_DIR$\..\device\reg_common.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_comp.h</name>
+            <name>$PROJ_DIR$\..\device\reg_comp.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_crc.h</name>
+            <name>$PROJ_DIR$\..\device\reg_crc.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_crs.h</name>
+            <name>$PROJ_DIR$\..\device\reg_crs.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_dac.h</name>
+            <name>$PROJ_DIR$\..\device\reg_dac.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_dbg.h</name>
+            <name>$PROJ_DIR$\..\device\reg_dbg.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_dma.h</name>
+            <name>$PROJ_DIR$\..\device\reg_dma.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_eth.h</name>
+            <name>$PROJ_DIR$\..\device\reg_eth.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_exti.h</name>
+            <name>$PROJ_DIR$\..\device\reg_exti.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_flash.h</name>
+            <name>$PROJ_DIR$\..\device\reg_flash.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_fsmc.h</name>
+            <name>$PROJ_DIR$\..\device\reg_fsmc.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_gpio.h</name>
+            <name>$PROJ_DIR$\..\device\reg_gpio.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_i2c.h</name>
+            <name>$PROJ_DIR$\..\device\reg_i2c.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_iwdg.h</name>
+            <name>$PROJ_DIR$\..\device\reg_iwdg.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_pwm.h</name>
+            <name>$PROJ_DIR$\..\device\reg_pwm.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_pwr.h</name>
+            <name>$PROJ_DIR$\..\device\reg_pwr.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_rcc.h</name>
+            <name>$PROJ_DIR$\..\device\reg_rcc.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_rtc.h</name>
+            <name>$PROJ_DIR$\..\device\reg_rtc.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_sdio.h</name>
+            <name>$PROJ_DIR$\..\device\reg_sdio.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_spi.h</name>
+            <name>$PROJ_DIR$\..\device\reg_spi.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_syscfg.h</name>
+            <name>$PROJ_DIR$\..\device\reg_syscfg.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_tim.h</name>
+            <name>$PROJ_DIR$\..\device\reg_tim.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_uart.h</name>
+            <name>$PROJ_DIR$\..\device\reg_uart.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_usb_otg_fs.h</name>
+            <name>$PROJ_DIR$\..\device\reg_usb_otg_fs.h</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\reg_wwdg.h</name>
+            <name>$PROJ_DIR$\..\device\reg_wwdg.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\device\system_mm32f327x.c</name>
         </file>
         <file>
-            <name>C:\Users\HP\Desktop\MM32F3277\MM32F3277\MM32F3270 Alpha Package\3_Lib_Samples\MM32F3270_Lib_Samples_V0.52\Device\MM32F327x\Include\types.h</name>
+            <name>$PROJ_DIR$\..\device\types.h</name>
         </file>
     </group>
     <group>
@@ -2478,10 +2480,10 @@
     <group>
         <name>source</name>
         <file>
-            <name>$PROJ_DIR$\..\source\isr.cpp</name>
+            <name>$PROJ_DIR$\..\source\iar.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\source\main.cpp</name>
+            <name>$PROJ_DIR$\..\source\main.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\source\syscalls.c</name>

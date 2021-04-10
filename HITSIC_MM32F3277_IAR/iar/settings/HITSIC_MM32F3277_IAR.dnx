@@ -27,11 +27,14 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <PlDriver>
+        <FirstRun>0</FirstRun>
         <MemConfigValue>F:\IAR\arm\CONFIG\debugger\MindMotion\MM32F3270.ddf</MemConfigValue>
     </PlDriver>
     <Jet>
         <JetConnSerialNo>CMSIS-DAP v1 (SLINK):07000001066bff383533554157124913a5a5a5a597969908</JetConnSerialNo>
         <JetConnFoundProbes />
+        <PrevWtdReset>Hardware</PrevWtdReset>
+        <OnlineReset>Software</OnlineReset>
         <DisableInterrupts>0</DisableInterrupts>
         <LeaveRunning>0</LeaveRunning>
         <MultiCoreRunAll>0</MultiCoreRunAll>
@@ -40,7 +43,7 @@
         <EnableCache>1</EnableCache>
     </ArmDriver>
     <DebugChecksum>
-        <Checksum>2229379759</Checksum>
+        <Checksum>3901258046</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -49,24 +52,35 @@
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
     </CodeCoverage>
-    <Trace1>
-        <Enabled>0</Enabled>
-        <ShowSource>1</ShowSource>
-    </Trace1>
-    <Trace2>
-        <Enabled>0</Enabled>
-        <ShowSource>0</ShowSource>
-    </Trace2>
-    <SWOTraceWindow>
-        <PcSampling>0</PcSampling>
-        <InterruptLogs>0</InterruptLogs>
-        <ForcedTimeStamps>0</ForcedTimeStamps>
-        <EventCPI>0</EventCPI>
-        <EventEXC>0</EventEXC>
-        <EventFOLD>0</EventFOLD>
-        <EventLSU>0</EventLSU>
-        <EventSLEEP>0</EventSLEEP>
-    </SWOTraceWindow>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>72000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>250000</ClockWanted>
+        <JtagSpeed>250000</JtagSpeed>
+        <Prescaler>288</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
     <PowerLog>
         <Title_0>I0</Title_0>
         <Symbol_0>0 4 0</Symbol_0>
@@ -107,22 +121,6 @@
         <ShowTimeSum>1</ShowTimeSum>
         <SumSortOrder>0</SumSortOrder>
     </EventLog>
-    <Disassembly>
-        <InstrCount>0</InstrCount>
-        <MixedMode>1</MixedMode>
-    </Disassembly>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
-    <CallStack>
-        <ShowArgs>0</ShowArgs>
-    </CallStack>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -136,33 +134,63 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
-    <JLinkDriver>
-        <CStepIntDis>_ 0</CStepIntDis>
-        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
-    </JLinkDriver>
-    <SWOTraceHWSettings>
-        <OverrideDefaultClocks>0</OverrideDefaultClocks>
-        <CpuClock>72000000</CpuClock>
-        <ClockAutoDetect>0</ClockAutoDetect>
-        <ClockWanted>250000</ClockWanted>
-        <JtagSpeed>250000</JtagSpeed>
-        <Prescaler>288</Prescaler>
-        <TimeStampPrescIndex>0</TimeStampPrescIndex>
-        <TimeStampPrescData>0</TimeStampPrescData>
-        <PcSampCYCTAP>1</PcSampCYCTAP>
-        <PcSampPOSTCNT>15</PcSampPOSTCNT>
-        <PcSampIndex>0</PcSampIndex>
-        <DataLogMode>0</DataLogMode>
-        <ITMportsEnable>0</ITMportsEnable>
-        <ITMportsTermIO>0</ITMportsTermIO>
-        <ITMportsLogFile>0</ITMportsLogFile>
-        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
-    </SWOTraceHWSettings>
     <PowerProbe>
         <Frequency>10000</Frequency>
         <Probe0>I0</Probe0>
         <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
     </PowerProbe>
+    <SWOManager>
+        <SamplingDivider>8192</SamplingDivider>
+        <OverrideClock>0</OverrideClock>
+        <CpuClock>1</CpuClock>
+        <SwoClock>1</SwoClock>
+        <DataLogMode>0</DataLogMode>
+        <ItmPortsEnabled>63</ItmPortsEnabled>
+        <ItmTermIOPorts>1</ItmTermIOPorts>
+        <ItmLogPorts>0</ItmLogPorts>
+        <ItmLogFile>$PROJ_DIR$\ITM.log</ItmLogFile>
+        <PowerForcePC>1</PowerForcePC>
+        <PowerConnectPC>1</PowerConnectPC>
+    </SWOManager>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <ETMTraceWindow>
+        <PortWidth>4</PortWidth>
+        <PortMode>0</PortMode>
+        <CaptureDataValues>0</CaptureDataValues>
+        <CaptureDataAddresses>0</CaptureDataAddresses>
+        <CaptureDataRange>0</CaptureDataRange>
+        <DataFirst>0</DataFirst>
+        <DataLast>4294967295</DataLast>
+        <StopWhen>0</StopWhen>
+        <StallCPU>0</StallCPU>
+        <NoPCCapture>0</NoPCCapture>
+    </ETMTraceWindow>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <ForcedPcSampling>0</ForcedPcSampling>
+        <ForcedInterruptLogs>0</ForcedInterruptLogs>
+        <ForcedItmLogs>0</ForcedItmLogs>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
     <DisassembleMode>
         <mode>0</mode>
     </DisassembleMode>

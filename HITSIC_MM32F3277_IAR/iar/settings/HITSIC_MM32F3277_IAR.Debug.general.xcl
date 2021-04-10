@@ -1,8 +1,8 @@
 "F:\IAR\arm\bin\armproc.dll" 
 
-"F:\IAR\arm\bin\armjlink2.dll" 
+"F:\IAR\arm\bin\armJET.dll" 
 
-"E:\Fork\SmartCar\HITSIC_MM32F3277\HITSIC_MM32F3277_IAR\iar\Debug\Exe\HITSIC_MM32SPIN_IAR.out" 
+"E:\Fork\SmartCar\HITSIC_MM32F32\HITSIC_MM32F3277_IAR\iar\Debug\Exe\HITSIC_MM32F3277_IAR.out" 
 
 --plugin="F:\IAR\arm\bin\armbat.dll" 
 
